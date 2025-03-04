@@ -24,3 +24,10 @@ cities={
     },
 
     }
+for city,information in cities.items():
+    print('')
+    print('city and some information about it: ')
+    print(city)
+    for type,info in information.items():
+        print(f'{type}: {info}')
+        
